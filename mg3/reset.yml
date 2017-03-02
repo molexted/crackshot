@@ -1,0 +1,6 @@
+# This is the file for the startup reset.
+# If the server shuts down, reloads or crashes during a running game, the server will reset the arena after enabling the plugin on startup.
+Startup-Reset:
+  nether1: {}
+  nether2: {}
+  '1': {}

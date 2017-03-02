@@ -1,0 +1,76 @@
+# Explanation for the configuration:
+# http://dev.bukkit.org/bukkit-plugins/ultimatesurvivalgames/pages/config/
+enable-update-check: false
+use-permissions: true
+broadcast-win: true
+SQL:
+  Type: SQLITE
+  TablePrefix: sg_
+  MySQL:
+    Host: localhost
+    Port: 3306
+    Database: database
+    Username: username
+    Password: password
+Lightning:
+  on-death: true
+  on-few-players: true
+  few-players: 3
+  few-players-time: 45
+Default:
+  Enable-Voting: true
+  Lobby-Time: 120
+  Max-Voting-Arenas: 3
+  Required-Players-to-start: 2
+  Arena:
+    Chests:
+      TypeID: 54
+      Data: -1
+    Grace-Period: 30
+    Automaticly-Deathmatch-Time: 1800
+    Player-Deathmatch-Start: 3
+    Allowed-Blocks:
+    - 18
+    - 31
+    - 92
+    - 103
+    - 39
+    - 40
+    - 86
+    - 46
+    - 51
+    - 30
+  Money-on-Kill: 2.5
+  Money-on-Win: 20.0
+  Midnight-chest-refill: true
+Allowed-Commands:
+- /sg
+- /hg
+- /hungergames
+- /survivalgames
+Voting:
+  Item: CHEST name:&eVote_for_an_arena lore:&7Rightclick_to_open//&7the_voting_menu!
+  InventoryTitle: Vote for an arena!
+  ArenaItem: EMPTY_MAP 0 lore:&7Click_to_vote//&7for_this_arena!
+Leave-Item: MAGMA_CREAM name:&eLeave_the_lobby lore:&7Rightclick_to_leave//&7the_lobby!
+Spectating:
+  Enabled: true
+  Max-Spectators-Per-Arena: 8
+  Player-Navigator:
+    Item: COMPASS name:&ePlayer Navigator lore:&7Rightclick_to_open//&7the_player_navigator!
+    Inventory-Title: Click on a item to spectate!
+Chat:
+  Enabled: false
+  Design: '{STATE}{PREFIX}{PLAYERNAME}{SUFFIX}{MESSAGE}'
+  Spectator-State: '&8[&4✖&8] &r'
+Donator-Permissions:
+  Join-Full-Arena:
+  - sg.donator.vip.iron
+  - sg.donator.vip.gold
+  - sg.donator.moderator
+  - sg.donator.admin
+  Extra-Vote-Power:
+  - sg.donator.vip.iron//2
+  - sg.donator.vip.gold//2
+TNT-Extra-Damage: 7.0
+Enable-Arena-Reset: true

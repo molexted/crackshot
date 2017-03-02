@@ -1,0 +1,22 @@
+Sign:
+  LeftClick:
+    Show current arena: true
+    Show players remain: true
+  Line:
+    '1': '&bSurvivalGames'
+    '2': '&8[&e%name%&8]'
+    '3': '&o%state%'
+    '4': '%currentplayers%/&7%requiredplayers%&r/%maxplayers%'
+  LeavePrefix: '&bSurvivalGames'
+  Leave:
+    Line:
+      '2': ''
+      '3': '&oRightclick'
+      '4': '&oto leave!'
+Translations:
+  WAITING: WAITING
+  VOTING: VOTING
+  COOLDOWN: COOLDOWN
+  INGAME: INGAME
+  DEATHMATCH: DEATHMATCH
+  RESET: RESET

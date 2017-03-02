@@ -1,0 +1,55 @@
+# ##### UltimateSurvivalGames Scoreboard Configuration #####
+# 
+# How does this work?
+# For each game phase (WAITING,VOTING,COOLDOWN,INGAME and DEATHMATHCH) is a scoreboard design.
+# If you set "Enabled" for a phase to false, no scoreboard will shown!
+# The title can be maximal 32 charakters long and cannot contain variables.
+# 
+# In the "Scores" part, you can modify the content of the scoreboard. "//" splits the line in name and score.
+# The left part is the name which can be maximal 48 charalters long.
+# The right part is the amount of a score. Here you have to write the variables.
+# 
+# What are the variables?
+# You can use many variables. Here is a list:
+# 
+#   %playing% - The current amount of players in a lobby!
+#   %requiredplayers% - The amount of required players to start a game automaticly!
+#   %death% - The amount of deaths in a round!
+#   %spectators% - The amount of spectators in a round!
+#   %time% - The remaining time of a game phase!
+#   %votecount% - The amount of votes of an arena (Only works in the voting phase)
+#   %arena% - The name of the arena (Only works in the score name)
+# 
+# More help on http://dev.bukkit.org/bukkit-plugins/ultimatesurvivalgames/
+
+Phase:
+  Waiting:
+    Enabled: true
+    Title: '&b&lWaiting for players'
+    Scores:
+    - '&eRequired players to start&7://%requiredplayers%'
+    - '&eCurrent player amount&7://%playing%'
+  Voting:
+    Enabled: true
+    Title: '&b&lArena Voting'
+    Scores:
+    - '&e%arena%//%votecount%'
+    - '&e%arena%//%votecount%'
+    - '&e%arena%//%votecount%'
+  Cooldown:
+    Enabled: true
+    Title: '&b&lCooldown'
+    Scores:
+    - '&eTime remaining&7://%time%'
+    - '&eTributes&7://%playing%'
+  Ingame:
+    Enabled: true
+    Title: '&b&lIngame'
+    Scores:
+    - '&e&lAlive&7://%playing%'
+    - '&c&lDead&7://%death%'
+  Deathmatch:
+    Enabled: true
+    Title: '&b&lDeathmatch'
+    Scores:
+    - '&eTime remaining&7://%time%'

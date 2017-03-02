@@ -1,0 +1,100 @@
+prefix: '&7[&3SG&7] &6'
+no-permission: '&cYou don''t have permission to do this!'
+cmd-error: '&cError: %0%'
+join-unknown-game: '&cThe lobby %0% does not exist!'
+join-game-running: '&cThis game is already running!'
+join-vehicle: '&cYou can''t join SurvivalGames in a vehicle!'
+join-game-full: '&cSorry, this lobby is full!'
+join-success: '%0% joined the lobby! &7(&e%1%&7/&e%2%&7)'
+fulljoin-kick: '&cI''m sorry, you''ve been kicked to make a free slot for a donator
+  or a team member!'
+join-already-playing: '&cYou''re already playing!'
+leave-not-playing: '&cYou aren''t playing!'
+game-leave: '%0% left the lobby! &7(&e%1%&7/&e%2%&7)'
+game-cooldown: The game starts in &b%0%
+spectator-join: '%0% joined the game as spectator!'
+spectator-full: '&cThe lobby is full. There can be up to %0% spectators in a lobby!'
+spectator-game-running: '&cThis game isn''t running!'
+spectator-not-living: '&cPlayer %0% isn''t alive anymore.'
+spectator-new-player: You're now specatating %0%!
+spectator-disabled: '&cSpectating is disabled!'
+game-waiting-cooldown-big: The voting ends in %0% seconds
+game-waiting-cooldown-little: The voting ends in %0%
+game-waiting-end: The waiting phase has been ended!
+game-deathmatch-cooldown: The final deathmatch starts in &b%0%
+game-deathmatch-end-reached: '&cYou reached the end of the deathmatch arena!'
+game-deathmatch-start: Let's start the final deathmatch!
+game-deathmatch-timeout: The deathmatch ends automaticly in &b%0%
+game-deathmatch-timeout-warning: When the deathmatch ends automaticly, the winner will be choosed random!
+game-player-die-killer: '%0% was killed by %1%!'
+game-player-die-damage: '%0% has died and gone from us!'
+game-player-left: '%0% left the lobby!'
+game-remainplayers: '&b%0%&6 tributes remain.'
+game-grace-period: '&bYou have %0% seconds grace-period!'
+game-grace-period-ended: '&bThe grace-period has been ended!'
+game-voting-cooldown: The voting ends in &b%0%
+game-voting-end: The voting phrase has been ended!
+game-no-vote: '&cYou can only vote in the voting phase of the game!'
+game-bad-vote: '&cThis isn''t a valid vote ID!'
+game-already-vote: '&cYou''ve already voted for an arena!'
+game-no-voting-enabled: '&cSorry, voting isn''t enabled! The arena will choosed random!'
+game-success-vote: You've voted successfully for arena &b%0%&6!
+game-extra-vote: You've voted with &b%0% &6votes!
+game-start-canceled: Not enough players are in this lobby. Cancel Timer...
+game-start: The round begins, &b%0% &6players are playing! &bGood luck&6!
+game-chestrefill: It's midnight! All chests are refilled!
+game-win: '%0% won the SurvivalGames in arena %1% in lobby %2%!'
+game-win-winner-message: '&bCongratulations!&6 You won the SurvivalGames in arena
+  &b%0%&6!'
+game-end: '&cThe round ends in %0%!'
+game-sign-info: '&7&m-----&r &6Lobby info: &e%0% &7&m-----'
+game-sign-arena: 'Arena&7: &e%0%'
+game-sign-playersleft: '%0% players remain&7: %1%'
+game-sign-noinfo: There aren't any informations now!
+game-player-list: 'There are %0% players&7: %1%'
+game-not-loaded: '&cLobby %0% isn''t loaded!'
+game-already-loaded: '&cLobby %0% is already loaded!'
+game-success-loaded: Lobby %0% loaded successfully!
+game-success-unloaded: Lobby %0% unloaded successfully!
+game-load-error: '&cCan''t load lobby %0%! %1%'
+game-already-exists: '&cThe lobby %0% already exist!'
+game-created: You've created the lobby %0% successfully!
+game-spawn-set: You've set the spawn for lobby %0% successfully!
+game-set-spawn: To set the spawn of this lobby, type /sg lobby setspawn %0%
+game-not-found: '&cThe lobby %0% does not exists!'
+game-must-enter: '&cYou must enter a name: %0%'
+game-vote: 'Vote for an arena: &b/sg vote <ID>'
+forbidden-command: '&cYou can''t execute this command in SurvivalGames!'
+forbidden-build: '&cYou aren''t allowed to build in a SurvivalGames arena!'
+arena-already-exists: '&cThe arena %0% already exists in lobby %1%!'
+arena-must-select: '&cPlease select an arena with %0%!'
+arena-created: You've created arena %0% in lobby %1% successfully!
+arena-selected: You've selected arena %0% in lobby %1%!
+arena-not-found: '&cThe arena %0% does not exists in lobby %1%!'
+arena-no-selection: '&cPlease select two points with the selection item: %0%'
+arena-check: Type %0% to see what you have to do to complete the arena setup!
+arena-spawn-added: You've added Spawn %0% successfully!
+arena-spawn-removed: You removed Spawn %0% successfully!
+arena-spawn-notfound: '&cSpawn %0% does not exist!'
+arena-deathmatch-changed: 'You''ve changed the deathmatch: %0%!'
+arena-deathmatch-domemiddle-set: You've set the middle of the deathmatch arena successfully!
+arena-deathmatch-domemiddle-notset: '&cThe middle of the deathmatch arena isn''t defined!'
+arena-deathmatch-domemiddle-teleport: Teleporting to the middle of the deathmatch arena...
+arena-deathmatch-domeradius-show: The current radius of the dome is &b%0%&6!
+arena-deathmatch-domeradius-disabled: '&cThe deathmatch dome is disabled!'
+arena-deathmatch-domeradius-changed: You've changed the radius of the dome to &b%0% &6successfully!
+arena-money-win: '&eYou''ve received &a%0% &emoney for winning survival games!'
+arena-money-kill: '&eYou''ve received &a%0% &emoney for killing %1%!'
+arena-tools: Here is the selection tool. Left/Rightclick to set two positions!
+arena-tools-worldedit: Please use the WorldEdit Wand Tool to set two positions!
+config-error-name: '&cPlease enter a valid configuration name: %0%'
+stats-player-not-found: '&cThe player %0% does not exist.'
+stats-player-not-loaded: '&cThe statistics aren''t loaded for player %0%'
+stats-header: 'Statistics for &b%0%&7:'
+stats-kills: '   &eKills&7: &b%0%'
+stats-deaths: '   &eDeaths&7: &b%0%'
+stats-kdr: '   &eKDR&7: &b%0%'
+stats-points: '   &ePoints&7: &b%0%'
+stats-wins: '   &eGames won&7: &b%0%'
+stats-played: '   &eGames played&7: &b%0%'
+stats-footer: '&7&m-----------------------------------------------'
